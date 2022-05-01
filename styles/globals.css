@@ -3,5 +3,23 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
-  font-family: 30px;
+  font-size: 20px;
+}
+
+@media (max-width: 900px){
+  *{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  *{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  *{
+    font-size: 10px;
+  }
 }
